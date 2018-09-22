@@ -6,13 +6,13 @@
 
 }
 body{
-	
-	background-image: url("./img/splash_1080p.jpg");
+
 	font-family: "Segoe UI";
-	background-size: cover;
-	background-repeat: no-repeat;
     color:#ffffff;
-	height:100vh;
+	
+}
+.pc{
+  color:#E31B6D;
 }
 
 header{
@@ -55,8 +55,14 @@ nav li a{
 }
 
 #showcase{
-	
-	height:100vh;
+
+	/*bg-img stuff*/
+    background-image: url("./img/splash_1080p.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+
+	height:500px;
+	max-height: 500px
 	position:relative;
 
 }
@@ -74,16 +80,14 @@ nav li a{
 #info h1 span{
 	font-size: 5rem
 }
-.pc{
-  color:#E31B6D;
 
-}
 button{
 	position: absolute;
 	top: 58%;
 	left:50%;
 	transform: translateX(-50%);
 }
-.btn-pos{
 
+#about{
+	border:1px solid red;
 }
