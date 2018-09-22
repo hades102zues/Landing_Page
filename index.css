@@ -1,0 +1,89 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+	font-size: 10px;
+
+}
+body{
+	
+	background-image: url("./img/splash_1080p.jpg");
+	font-family: "Segoe UI";
+	background-size: cover;
+	background-repeat: no-repeat;
+    color:#ffffff;
+	height:100vh;
+}
+
+header{
+	padding:0px;
+	margin-top:10px;
+	height:50px;
+	
+
+
+}
+header h2{
+  font-size:2.5rem;
+  margin-top: 6px;
+  margin-left:60px;
+  float:left;/*done so everything inline*/
+  font-family: "Segoe UI";
+}
+nav{
+	margin-top:6px;
+	padding: 2px;
+	float: right;
+	margin-right:50px;
+}
+nav ul{
+	 padding: 0px;
+	 margin:0px;
+	 list-style-type:none; 
+}
+nav li{
+	display: inline-block;
+	margin:0px 8px 0px 8px;
+	float: left;
+}
+nav li a{
+	color:#ffffff;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 1.8rem;
+	text-transform: uppercase;
+}
+
+#showcase{
+	
+	height:100vh;
+	position:relative;
+
+}
+#info{
+	position:absolute;
+	left:50%;
+	transform: translateX(-50%);
+	top:25%;
+}
+#info h1{
+	font-size: 5rem;
+	text-align: center;
+
+}
+#info h1 span{
+	font-size: 5rem
+}
+.pc{
+  color:#E31B6D;
+
+}
+button{
+	position: absolute;
+	top: 58%;
+	left:50%;
+	transform: translateX(-50%);
+}
+.btn-pos{
+
+}
