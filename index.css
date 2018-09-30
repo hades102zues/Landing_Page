@@ -1,5 +1,7 @@
 
+html, body{
 
+}
 *{
 	padding: 0px;
 	margin: 0px;
@@ -34,6 +36,7 @@ nav{
 	padding: 2px;
 	float: right;
 	margin-right:50px;
+
 }
 nav ul{
 	 padding: 0px;
@@ -83,3 +86,62 @@ button{
 	left:50%;
 	transform: translateX(-50%);/*to properly center*/
 }
+
+
+@media all and (max-width:618px){
+
+
+   * {
+   	  font-size: .5rem;
+   	}
+
+
+   header h2{
+   	 float: none;
+   	 text-align: center;
+   	margin: 0 auto;
+   	width:150px;
+   	 padding-bottom: 25px;
+   	 
+
+   }
+
+   nav {
+   	 float: none;
+   	 position: absolute;
+   	 left:50%;
+   	 transform: translateX(-50%);
+   	 width: 60%;
+  
+   }
+   
+   nav li a{
+   	font-size: 2rem;
+   }
+  
+}
+
+@media all and (max-width:536px){
+
+
+
+
+   	nav ul li{
+   		/*keeping flot left met tht our items would not commit to the block*/
+   		float: none; 
+   		display:block;
+   		text-align: center;
+   		margin: 10px
+   	}
+
+}
+
+
+
+@media all and (max-width:397px){
+       *{
+   	  font-size:.4rem;
+   	}
+}
+
+
